@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <base href="/">
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,7 +32,7 @@
     <link rel="stylesheet" href="styles/css/colors/default.css" id="option_color">
 
     <!-- Icons -->
-    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="shortcut icon" href="images/favicon.png">
   </head>
   <body class="body-wrapper" ng-app="msWebApp">
     <!--[if lte IE 8]>
@@ -94,7 +95,7 @@
                         <a href="single-product.html">
                           <div class="media">
                             <div class="media-left">
-                              <img src="img/home/cart/cart-img.png" alt="cart-Image">
+                              <img src="images/home/cart/cart-img.png" alt="cart-Image">
                             </div>
                             <div class="media-body">
                               <h4>Barbie Racing Car</h4>
@@ -111,7 +112,7 @@
                         <a href="single-product.html">
                           <div class="media">
                             <div class="media-left">
-                              <img src="img/home/cart/cart-img.png" alt="cart-Image">
+                              <img src="images/home/cart/cart-img.png" alt="cart-Image">
                             </div>
                             <div class="media-body">
                               <h4>Barbie Racing Car</h4>
@@ -128,7 +129,7 @@
                         <a href="single-product.html">
                           <div class="media">
                             <div class="media-left">
-                              <img src="img/home/cart/cart-img.png" alt="cart-Image">
+                              <img src="images/home/cart/cart-img.png" alt="cart-Image">
                             </div>
                             <div class="media-body">
                               <h4>Barbie Racing Car</h4>
@@ -168,13 +169,18 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index-v1.html"><img src="img/logo-school.png" alt="Kidz School"></a>
+              <a class="navbar-brand" href="index-v1.html"><img src="images/logo-school.png" alt="Kidz School"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
               <ul class="nav navbar-nav navbar-right">
-                <li class="active dropdown singleDrop color-1">
+                <li class="color-1">
+                  <a href="/" role="button">
+                    <i class="fa fa-home bg-color-1" aria-hidden="true"></i> <span>Home</span>
+                  </a>
+                </li>
+                <!-- <li class="active dropdown singleDrop color-1">
                   <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-home bg-color-1" aria-hidden="true"></i> <span>Home</span>
                   </a>
@@ -183,10 +189,11 @@
                     <li><a href="index-v2.html">Kidz Store</a></li>
                     <li><a href="index-v3.html">Kidz Daycare</a></li>
                   </ul>
-                </li>
+                </li> -->
                 <li class="dropdown singleDrop color-3">
                   <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list-ul bg-color-3" aria-hidden="true"></i> <span>pages</span></a>
                   <ul class="dropdown-menu dropdown-menu-left">
+                    <li><a href="/about-us" translate="ABOUT_US"></a></li>
                     <li><a href="about_us.html">About</a></li>
                     <li class="dropdown dropdown-submenu">
                       <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Team<i class="fa fa-chevron-right" aria-hidden="true"></i>
@@ -343,7 +350,7 @@
                   <a href="single-product.html">
                     <div class="media">
                       <div class="media-left">
-                        <img src="img/home/cart/cart-img.png" alt="cart-Image">
+                        <img src="images/home/cart/cart-img.png" alt="cart-Image">
                       </div>
                       <div class="media-body">
                         <h4>Barbie Racing Car</h4>
@@ -360,7 +367,7 @@
                   <a href="single-product.html">
                     <div class="media">
                       <div class="media-left">
-                        <img src="img/home/cart/cart-img.png" alt="cart-Image">
+                        <img src="images/home/cart/cart-img.png" alt="cart-Image">
                       </div>
                       <div class="media-body">
                         <h4>Barbie Racing Car</h4>
@@ -377,7 +384,7 @@
                   <a href="single-product.html">
                     <div class="media">
                       <div class="media-left">
-                        <img src="img/home/cart/cart-img.png" alt="cart-Image">
+                        <img src="images/home/cart/cart-img.png" alt="cart-Image">
                       </div>
                       <div class="media-body">
                         <h4>Barbie Racing Car</h4>
@@ -403,9 +410,7 @@
           </div>
         </nav>
       </header>
-      <div class="container">
-        <div ng-view=""></div>
-      </div>
+      <div ng-view></div>
       <footer>
         <!-- COLOR BAR -->
         <div class="container-fluid color-bar clearfix">
@@ -425,12 +430,12 @@
           </div>
         </div>
         <!-- FOOTER INFO AREA -->
-        <div class="footerInfoArea full-width clearfix" style="background-image: url(img/footer/footer-bg-1.png);">
+        <div class="footerInfoArea full-width clearfix" style="background-image: url(images/footer/footer-bg-1.png);">
           <div class="container">
             <div class="row">
               <div class="col-sm-3 col-xs-12">
                 <div class="footerTitle">
-                  <a href="index-v1.html"><img src="img/logo-footer.png"></a>
+                  <a href="index-v1.html"><img src="images/logo-footer.png"></a>
                 </div>
                 <div class="footerInfo">
                   <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa officia.Lorem ipsum dolor sit amet.</p>
@@ -481,7 +486,7 @@
                     <li>
                       <div class="media">
                         <a class="media-left" href="single-blog.html">
-                          <img class="media-object img-rounded border-color-1" src="img/footer/footer-img-1.png" alt="Image">
+                          <img class="media-object img-rounded border-color-1" src="images/footer/footer-img-1.png" alt="Image">
                         </a>
                         <div class="media-body">
                           <h5 class="media-heading"><a href="single-blog.html">A Clean Website Gives More Experience To The Visitors</a></h5>
@@ -492,7 +497,7 @@
                     <li>
                       <div class="media">
                         <a class="media-left" href="single-blog-left-sidebar.html">
-                          <img class="media-object img-rounded border-color-2" src="img/footer/footer-img-2.png" alt="Image">
+                          <img class="media-object img-rounded border-color-2" src="images/footer/footer-img-2.png" alt="Image">
                         </a>
                         <div class="media-body">
                           <h5 class="media-heading"><a href="single-blog-left-sidebar.html">A Clean Website Gives More Experience To The Visitors</a></h5>
@@ -503,7 +508,7 @@
                     <li>
                       <div class="media">
                         <a class="media-left" href="single-blog-left-sidebar.html">
-                          <img class="media-object img-rounded border-color-4" src="img/footer/footer-img-3.png" alt="Image">
+                          <img class="media-object img-rounded border-color-4" src="images/footer/footer-img-3.png" alt="Image">
                         </a>
                         <div class="media-body">
                           <h5 class="media-heading"><a href="single-blog-left-sidebar.html">A Clean Website Gives More Experience To The Visitors</a></h5>
@@ -615,6 +620,8 @@
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-translate/angular-translate.min.js"></script>
+    <script src="bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -634,7 +641,8 @@
     <script src="scripts/app.js"></script>
     <script src="scripts/custom.js"></script>
     <script src="scripts/controllers/main.js"></script>
-    <script src="scripts/controllers/about.js"></script>
+    <script src="scripts/controllers/about-us-section.js"></script>
+    <script src="scripts/controllers/home-section.js"></script>
     <!-- endbuild -->
 </body>
 </html>
