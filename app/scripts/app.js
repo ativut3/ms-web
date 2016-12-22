@@ -29,6 +29,10 @@ angular
         template: '<about-us-section></about-us-section>',
         controller: 'AboutUsSectionCtrl',
       })
+      .when('/our-services', {
+        template: '<our-services-section></our-services-section>',
+        controller: 'OurServicesSectionCtrl',
+      })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',
