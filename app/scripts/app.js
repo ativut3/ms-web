@@ -18,7 +18,7 @@ angular
         suffix: '.json'
       });
     $translateProvider.preferredLanguage('th');
-    $translateProvider.useSanitizeValueStrategy('escape');
+    $translateProvider.useSanitizeValueStrategy(null);
 
     $routeProvider
       .when('/', {
