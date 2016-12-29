@@ -23,15 +23,19 @@ angular
     $routeProvider
       .when('/', {
         template: '<home-section></home-section>',
-        controller: 'HomeSectionCtrl',
+        controller: 'HomeSectionCtrl'
       })
       .when('/about-us', {
         template: '<about-us-section></about-us-section>',
-        controller: 'AboutUsSectionCtrl',
+        controller: 'AboutUsSectionCtrl'
       })
       .when('/our-services', {
         template: '<our-services-section></our-services-section>',
-        controller: 'OurServicesSectionCtrl',
+        controller: 'OurServicesSectionCtrl'
+      })
+      .when('/contact-us', {
+        template: '<contact-us-section></contact-us-section>',
+        controller: 'ContactUsSectionCtrl'
       })
       .when('/about', {
         templateUrl: 'views/about.html',
