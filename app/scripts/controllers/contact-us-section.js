@@ -4,6 +4,7 @@ angular.module('msWebApp')
 
   .controller('ContactUsSectionCtrl', function () {
 
+    };
   })
 
   .directive('contactUsSection', function () {

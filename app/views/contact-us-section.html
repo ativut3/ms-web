@@ -8,8 +8,8 @@
             <i class="fa fa-map-marker" aria-hidden="true"></i>
           </span>
           <div class="media-body">
-            <h3 class="media-heading">Address:</h3>
-            <p>9/4 C  Block, garden Street, Shyamoli, Dhaka.</p>
+            <h3 class="media-heading">{{ ('ADDRESS' | translate) + ':' }}</h3>
+            <p translate="ADDRESS_INFO"></p>
           </div>
         </div>
       </div>
@@ -19,8 +19,8 @@
             <i class="fa fa-phone" aria-hidden="true"></i>
           </span>
           <div class="media-body">
-            <h3 class="media-heading">Phone:</h3>
-            <p>954 124 2542  Or  546 235 4478</p>
+            <h3 class="media-heading">{{ ('PHONE' | translate) + ':' }}</h3>
+            <p>02 391 2690-2</p>
           </div>
         </div>
       </div>
@@ -30,10 +30,8 @@
             <i class="fa fa-envelope-o" aria-hidden="true"></i>
           </span>
           <div class="media-body">
-            <h3 class="media-heading">Email:</h3>
-            <p><a href="mailto:hello@example.com">hello@example.com</a>  Or
-              <a href="mailto:hello1@example.com">hello1@example.com</a>
-            </p>
+            <h3 class="media-heading">{{ ('EMAIL' | translate) + ':' }}</h3>
+            <p><a href="mailto:info@madsciencethai.com">info@madsciencethai.com</a></p>
           </div>
         </div>
       </div>
