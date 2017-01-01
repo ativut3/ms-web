@@ -16,7 +16,7 @@
 	2.13 CART
 	2.14 PAGER
 	2.15 Extra
-3. 1.1 HEADER 
+3. 1.1 HEADER
 	3.1 TOP COLOR BAR
 	3.2 TOP INFO BAR
 	3.3 HEADER TRANSPARENT
@@ -161,49 +161,49 @@ body.bodyColor.default {
 }
 
 body.bodyColor.pattern-01 {
-  background-image: url("../img/patterns/001.png");
+  background-image: url("../../images/patterns/001.png");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
 }
 
 body.bodyColor.pattern-02 {
-  background-image: url("../img/patterns/002.png");
+  background-image: url("../../images/patterns/002.png");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
 }
 
 body.bodyColor.pattern-03 {
-  background-image: url("../img/patterns/003.png");
+  background-image: url("../../images/patterns/003.png");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
 }
 
 body.bodyColor.pattern-04 {
-  background-image: url("../img/patterns/004.png");
+  background-image: url("../../images/patterns/004.png");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
 }
 
 body.bodyColor.pattern-06 {
-  background-image: url("../img/patterns/006.png");
+  background-image: url("../../images/patterns/006.png");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
 }
 
 body.bodyColor.pattern-07 {
-  background-image: url("../img/patterns/007.png");
+  background-image: url("../../images/patterns/007.png");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
 }
 
 body.bodyColor.pattern-05 {
-  background-image: url("../img/patterns/005.png");
+  background-image: url("../../images/patterns/005.png");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
@@ -684,7 +684,7 @@ aside {
 }
 
 .pageTitleSection {
-  background-image: url("../img/page-title/page-title-bg.jpg");
+  background-image: url("../../images/page-title/page-title-bg.jpg");
   width: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -3451,7 +3451,7 @@ footer .color-bar {
 
 /*=== 5.5 SERVICES SECTION ===*/
 .servicesSection {
-  background-image: url("../img/home/pattern-light.png");
+  background-image: url("../../images/home/pattern-light.png");
   width: 100%;
   background-repeat: repeat;
   height: auto;
@@ -3767,7 +3767,7 @@ footer .color-bar {
 }
 
 .teamSection {
-  background-image: url("../img/home/pattern-light.png");
+  background-image: url("../../images/home/pattern-dark.png");
   width: 100%;
   background-repeat: repeat;
   height: auto;
@@ -4218,7 +4218,7 @@ footer .color-bar {
 
 /*=== 5.9 COUNT UP SECTION ===*/
 .countUpSection {
-  background-image: url("../img/home/countup.jpg");
+  background-image: url("../../images/home/countup.jpg");
   width: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -4441,7 +4441,7 @@ footer .color-bar {
 
 /*=== 5.11 COMMENT SECTION ===*/
 .commentSection {
-  background-image: url("../img/home/pattern-light.png");
+  background-image: url("../../images/home/pattern-light.png");
   width: 100%;
   background-repeat: repeat;
   height: auto;
@@ -5609,7 +5609,7 @@ footer .color-bar {
   width: 100%;
   height: 330px;
   overflow: hidden;
-  background: url(../img/course-single/course-count.jpg) no-repeat center top;
+  background: url(../../images/course-single/course-count.jpg) no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
