@@ -37,6 +37,10 @@ angular
         template: '<contact-us-section></contact-us-section>',
         controller: 'ContactUsSectionCtrl'
       })
+      .when('/camp', {
+        template: '<camp-section></camp-section>',
+        controller: 'CampSectionCtrl'
+      })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',
@@ -49,4 +53,9 @@ angular
       /* Remove hash from the url routing & Prettify Url
       https://scotch.io/tutorials/pretty-urls-in-angularjs-removing-the-hashtag */
       $locationProvider.html5Mode(true);
-  });
+  })
+  .run(['$rootScope', '$window', function ($rootScope, $window) {
+    $rootScope.$on('$routeChangeSuccess', function () {
+      $window.scrollTo(0,0);
+    });
+  }]);
