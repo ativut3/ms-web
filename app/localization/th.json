@@ -11,12 +11,21 @@
   "ADDRESS_INFO": "68 ซอยสุขุมวิท 40 แขวงพระโขนง <br>เขตคลองเตย กทม.10110",
   "CONTACT_US": "ติดต่อเรา",
   "EMAIL": "อีเมล",
+  "MAD_SCIENCE_ADVENTURE_CAMP": "ค่ายวิทยาศาสตร์หรรษา",
+  "MAD_SCIENCE_ADVENTURE_THROUGH_TIME": "ค่ายวิทยาศาสตร์ทะลุมิติ",
+  "MAD_SCIENCE_FANTASTIC_CAMP": "ค่ายวิทยาศาสตร์อศัจรรย์",
+  "MAD_SCIENCE_FUN_CAMP": "ค่ายวิทยาศาสตร์แสนสนุก",
+  "MAD_SCIENCE_GENIUS_CAMP": "ค่ายวิทยาศาสตร์อัจฉริยะ",
+  "MAD_SCIENCE_HA_HA_HA_CAMP": "ค่ายวิทยาศาสตร์ ฮ่า..ฮ่า..ฮ่า",
   "ORGANIZATIONS": "บริษัทและองค์กรต่างๆ",
   "ORGANIZATIONS_SERVICE_DETAILS": "การแสดงกิจกรรมวิทยาศาสตร์บนเวที",
   "OUR_SERVICES": "บริการของเรา",
   "PARENTS": "ผู้ปกครอง",
   "PARENTS_SERVICE_DETAILS": "กิจกรรมวิทยาศาสตร์ยามเด็กๆปิดเทอมหรือในโอกาสพิเศษของครอบครัว",
   "PHONE": "เบอร์โทรศัพท์",
+  "RED_HOT_ROBOTS": "ค่ายหุ่นยนต์อัจฉริยะ",
   "SCHOOLS": "โรงเรียน สถานศึกษา",
-  "SCHOOLS_SERVICE_DETAILS": "กิจกรรมวิทยาศาสตร์ทั้งในและหลังเวลาเรียน การอบรมบุคลากรครู"
+  "SCHOOLS_SERVICE_DETAILS": "กิจกรรมวิทยาศาสตร์ทั้งในและหลังเวลาเรียน การอบรมบุคลากรครู",
+  "SECRET_AGENT_LAB_ONE": "ค่ายสายลับวิทยาศาสตร์ 1",
+  "SECRET_AGENT_LAB_TWO": "ค่ายสายลับวิทยาศาสตร์ 2"
 }
