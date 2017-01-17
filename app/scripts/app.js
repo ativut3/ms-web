@@ -10,7 +10,7 @@
  */
 angular
   .module('msWebApp', [
-    'ngRoute', 'pascalprecht.translate'
+    'ngRoute', 'ngAnimate', 'ngTouch', 'pascalprecht.translate', 'ui.bootstrap'
   ])
   .config(function ($routeProvider, $locationProvider, $translateProvider) {
     $translateProvider.useStaticFilesLoader({

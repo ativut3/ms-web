@@ -1002,6 +1002,29 @@ aside {
   background-color: #ea7066;
   color: #fffefe;
 }
+/* set animate effect */
+.tabCommon .tab-content > .tab-pane{
+    transition: 0.2s linear opacity;
+}
+/*=== Start angular stuff ===*/
+/* overwrite display: none and remove from document flow */
+.tabCommon .tab-content > .tab-pane.active-remove {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: block;
+}
+
+/* opacity=0 when removing "active" class */
+.tabCommon .tab-content > .tab-pane.active-remove-active {
+    opacity: 0;
+}
+
+/* opacity=0 when adding "active" class */
+.tabCommon .tab-content > .tab-pane.active-add {
+    opacity: 0;
+}
+/*=== End angular stuff ===*/
 .tabCommon .tab-content {
   padding-top: 50px;
 }
